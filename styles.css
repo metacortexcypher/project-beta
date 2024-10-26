@@ -4,6 +4,10 @@ body {
     padding: 20% 10px;
     background-color: #f2f2f2;
  }
+ nav{
+   position: fixed;
+   top: 0;
+ }
  h1 {
     font-size: 2rem;
     color: #333;
