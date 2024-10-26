@@ -1,13 +1,21 @@
+*{
+   margin: 0;
+}
+nav{
+   position: fixed;
+   top: 0;   
+}
+#navitem {
+   text-align: center;
+   text-decoration: none;
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20% 10px;
     background-color: #f2f2f2;
  }
- nav{
-   position: fixed;
-   top: 0;
- }
+
  h1 {
     font-size: 2rem;
     color: #333;
