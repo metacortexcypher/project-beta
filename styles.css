@@ -24,3 +24,20 @@ body {
  .btn:hover {
     background-color: black;
  }
+
+ #new {
+   width: 700px;
+   text-align: center;
+ }
+
+ div{
+   width: 700px;
+   margin: auto;
+ }
+ span{
+   color: orangered;
+ }
+
+ #colored{
+   color: #007bff;
+ }
