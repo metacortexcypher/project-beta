@@ -133,3 +133,16 @@ li{
    width: 90%; /* Instead of a fixed width */
    max-width: 1200px;
 }
+
+h2{
+   width: 800px;
+   text-align: center;
+   margin: auto;
+   padding: 0;
+   color: #333;
+}
+
+.loglist{
+   list-style-type: circle;
+   color: #666;
+}
