@@ -11,7 +11,36 @@ body {
     text-align: center;
     padding: 10% 10px;
     background-color: #f2f2f2;
+    max-width: 1200px;
  }
+
+ @media (max-width: 768px) {
+   body {
+       font-size: 16px;
+       padding: 15px;
+   }
+   /* Adjust any large sections, images, etc., for smaller screens */
+   .hero-section {
+       flex-direction: column;
+       text-align: center;
+   }
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+   body {
+       font-size: 14px;
+       padding: 10px;
+   }
+   .hero-section {
+       padding: 20px 10px;
+   }
+   /* Adjust button sizes, font sizes, or margins specifically for mobile */
+   .button {
+       font-size: 1rem;
+       padding: 10px;
+   }
+}
 
  h1 {
     font-size: 2rem;
@@ -98,4 +127,9 @@ li{
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.container {
+   width: 90%; /* Instead of a fixed width */
+   max-width: 1200px;
 }
